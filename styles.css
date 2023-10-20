@@ -4,3 +4,35 @@
     box-sizing: border-box;
 }
 
+.width_container {
+    max-width: 100%;
+    border: 2px solid orange;
+    margin: 0 auto;
+    width: 100vh;
+}
+
+.header_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.img_container {
+    max-width: 40%;
+}
+
+img {
+    width: 100%;
+}
+
+.introduction {
+    padding: 1em 0.5em;
+    max-width: 50%;
+    border: 1px solid red;
+}
+
+
+
